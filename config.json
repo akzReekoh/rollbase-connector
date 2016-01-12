@@ -1,0 +1,21 @@
+{
+  "username": {
+	"label": "Username",
+	"type": "String",
+	"required": true,
+	"help": "Rollbase Account Username."
+  },
+  "password": {
+	"label": "Password",
+	"type": "String",
+	"required": true,
+	"help": "Rollbase Account Password."
+  },
+  "login_url": {
+	"label": "Login URL",
+	"type": "String",
+	"required": true,
+	"default": "https://wwww.rbl1.ph",
+	"help": "Rollbase Login URL. Default: https://www.rbl1.ph"
+  }
+}

@@ -93,8 +93,8 @@ platform.once('ready', function (options) {
 
 	username = options.username;
 	password = options.password;
-	loginUrl = options.loginUrl;
-	objName = options.objName;
+	loginUrl = options.login_url;
+	objName = options.obj_name;
 
 	platform.notifyReady();
 	platform.log('Rollbase Connector has been initialized.');

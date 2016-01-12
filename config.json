@@ -11,6 +11,12 @@
 	"required": true,
 	"help": "Rollbase Account Password."
   },
+  "obj_name": {
+	"label": "ObjName",
+	"type": "String",
+	"required": true,
+	"help": "Rollbase Object integration name"
+  },
   "login_url": {
 	"label": "Login URL",
 	"type": "String",

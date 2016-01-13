@@ -43,7 +43,7 @@ platform.on('data', function (data) {
 			});
 
 			var options = {
-				url: loginUrl.concat('rest/api/create2'),
+				url: loginUrl.concat('/rest/api/create2'),
 				method: 'POST',
 				form: formData
 			};

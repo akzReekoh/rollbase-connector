@@ -1,9 +1,9 @@
 'use strict';
 
-const USER_NAME = 'ncanonizado@barhead.ph',
+const USER_NAME = 'nigel@reekoh',
 	  PASSWORD = 'reekohinc',
-	  OBJ_NAME = 'standard1',
-	  LOGIN_URL = 'http://www.rollbase.ph';
+	  OBJ_NAME = 'Standard',
+	  LOGIN_URL = 'http://www.rbl1.ph';
 
 var cp     = require('child_process'),
 	assert = require('assert'),

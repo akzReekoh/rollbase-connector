@@ -15,7 +15,7 @@
 	"label": "Login URL",
 	"type": "String",
 	"required": true,
-	"default": "http://wwww.rollbase.ph",
-	"help": "Rollbase Login URL. Default: http://www.rollbase.ph"
+	"default": "http://wwww.rbl1.ph",
+	"help": "Rollbase Login URL. Default: http://www.rbl1.ph"
   }
 }

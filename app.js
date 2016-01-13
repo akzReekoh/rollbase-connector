@@ -1,7 +1,7 @@
 'use strict';
 
 var platform = require('./platform'),
-	username, password, loginUrl, objName;
+	username, password, loginUrl;
 
 platform.on('data', function (data) {
 
@@ -34,7 +34,6 @@ platform.on('data', function (data) {
 
 			var formData = {
 				sessionId: sessionId,
-				objName: objName,
 				useIds: false,
 				output: 'json'
 			};
@@ -52,7 +51,7 @@ platform.on('data', function (data) {
 			request(options, function (error, response, body) {
 
 				if (error)
-					cb(error)
+					cb(error);
 				else
 					cb(null, sessionId, body);
 			});
@@ -94,7 +93,6 @@ platform.once('ready', function (options) {
 	username = options.username;
 	password = options.password;
 	loginUrl = options.login_url;
-	objName = options.obj_name;
 
 	platform.notifyReady();
 	platform.log('Rollbase Connector has been initialized.');

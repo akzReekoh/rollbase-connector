@@ -1,7 +1,7 @@
 {
   "name": "rollbase-connector",
   "description": "Rollbase Connector Plugin for the Reekoh IoT platform. Push data to a Rollbase customer zone from Reekoh instance.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Reekoh, Inc.",
   "main": "app.js",
   "scripts": {
@@ -25,5 +25,5 @@
     "gulp-plumber": "^1.0.1",
     "mocha": "^2.3.4"
   },
-  "license": "LGPLv3"
+  "license": "LGPL-3.0"
 }

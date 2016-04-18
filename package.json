@@ -1,7 +1,7 @@
 {
   "name": "rollbase-connector",
   "description": "Rollbase Connector Plugin for the Reekoh IoT platform. Push data to a Rollbase customer zone from Reekoh instance.",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "author": "Reekoh, Inc.",
   "main": "app.js",
   "scripts": {
@@ -13,17 +13,17 @@
   },
   "dependencies": {
     "async": "1.5.0",
-    "lodash": "^3.10.1",
-    "request": "2.67.0"
+    "lodash": "^4.11.1",
+    "request": "2.71.0"
   },
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-cli": "^1.1.0",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.1",
     "gulp-jshint": "^2.0.0",
     "gulp-json-lint": "^0.1.0",
     "gulp-mocha": "^2.2.0",
-    "gulp-plumber": "^1.0.1",
-    "mocha": "^2.3.4"
+    "gulp-plumber": "^1.1.0",
+    "mocha": "^2.4.5"
   },
   "license": "LGPL-3.0"
 }

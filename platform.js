@@ -63,13 +63,9 @@ Platform.init = function () {
 
     process.on('message', (m) => {
         if (m.type === 'ready')
-            this.emit('ready', m.data.options, m.data.devices);
+            this.emit('ready', m.data.options);
         else if (m.type === 'data')
             this.emit('data', m.data);
-        else if (m.type === 'adddevice')
-            this.emit('adddevice', m.data);
-        else if (m.type === 'removedevice')
-            this.emit('removedevice', m.data);
         else if (m.type === 'close')
             this.emit('close');
     });

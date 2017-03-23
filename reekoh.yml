@@ -1,0 +1,20 @@
+---
+version: 1.0.0 # So we could parse new versions of the manifest without dropping support for older ones. The CLI should be able to parse the YAML file based on the version
+kind: Plugin # We will add other objects that can be uploaded in the registry like: Add-ons, full-blown applications, bots and others TBD
+metadata:
+  name: XXX
+  description: XXX
+  documentation: ./README.md
+  icon: XXX
+  signupLink: XXX
+  type: Gateway
+  price: 0
+  tags:
+    - XXX
+  config:
+
+  # Release Descriptor
+  release:
+    version: 1.0.0
+    notes: path/to/RELEASENOTESv1.0.0.md
+    image: path/to/docker/image

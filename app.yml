@@ -1,6 +1,6 @@
 ---
 apps:
-  - name: XXX
+  - name: Rollbase Connector
     script: app.js
     exec_mode: cluster
     instances: 0
